@@ -164,6 +164,9 @@ if [ ! -n "${BULLETTRAIN_DIR_EXTENDED+1}" ]; then
 fi
 
 # GIT
+export BULLETTRAIN_GIT_DIRTY=" \uf040 "
+export BULLETTRAIN_GIT_PREFIX="\uf408 \uf418 "
+
 if [ ! -n "${BULLETTRAIN_GIT_COLORIZE_DIRTY+1}" ]; then
   BULLETTRAIN_GIT_COLORIZE_DIRTY=false
 fi
